@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cyan;
+}
+
+button {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #f4d35e;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 3px #50514f;
+    outline: none;
+    transition: .3s
+}
+
+button:hover,
+button:active {
+    outline: none;
+    background-color: #50514f;
+}
